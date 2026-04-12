@@ -1,0 +1,15 @@
+# Security: NEVER upload your credentials
+.env
+
+# Python: No need to upload the virtual environment
+venv/
+__pycache__/
+*.py[cod]
+
+# Data: Don't upload the large Kaggle CSV files
+source_files/
+*.csv
+
+# OS specific
+.DS_Store
+Thumbs.db
